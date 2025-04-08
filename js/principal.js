@@ -15,6 +15,7 @@ import CL_vTienda from "./CL_vTienda.js";
 import CL_controlador from "./CL_controlador.js";
 
 
+
 export default class Cl_principal {
     constructor() {
         let vista = new CL_tienda();

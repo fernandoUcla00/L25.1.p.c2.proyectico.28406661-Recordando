@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="fotografiaForm">
+        <h3>fotografia</h3>
+        <input type="text" id="fotografiaForm_inCodigo" placeholder="Codigo"></input><br>
+        <input type="text" id="fotografiaForm_inCosto" placeholder="Costo"></input><br>
+        <input type="text" id="fotografiaForm_inTipo" placeholder="Tipo"></input><br>
+        <button id="fotografiaForm_btProcesar">Procesar</button> 
+
+        
+      </section>
+      <section id="videoForm">
+        <h3>video</h3>
+        <input type="text" id="videoForm_inCodigo" placeholder="Codigo"></input> <br>
+        <input type="text" id="videoForm_inCosto" placeholder="Costo"></input><br>
+        <input type="text" id="videoForm_inHD" placeholder="HD"></input><br>
+        <button id="videoForm_btProcesar">Procesar</button> <br>
+      </section>
+      <section id="mainForm">
+        <h3> Info de la ventas</h3>
+        <div id="salida"></div>
+      </section>
+    </body>
+      <script type="module">
+        import Cl_principal from "./js/principal.js";
+        new Cl_principal()
+      </script>
+</body>
+</html>
